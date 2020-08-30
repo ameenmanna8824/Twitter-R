@@ -16,7 +16,7 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 user= api.me()
-search = ['#100DaysOfCode','#diazonic']
+search = '#diazonic'
 num_tweet = 350
 
 #fetching tweets

@@ -17,7 +17,7 @@ api.verify_credentials()
 print('API Created')
 
 user= api.me()
-search = '#womenwhocode','#100DaysOfCode','#Python3','#diazoniclabs'
+search = '#womenwhocode','#100DaysOfCode','#Python3'
 num_tweet = 350
 
 #fetching tweets

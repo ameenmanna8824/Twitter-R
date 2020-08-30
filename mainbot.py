@@ -34,4 +34,4 @@ for tweet in tweepy.Cursor(api.search, search).items(num_tweet):
 		print(e.reason)
 	except StopIteration:
 		break
-
+   

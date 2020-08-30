@@ -3,10 +3,11 @@ import time
 
 print('Hi, I am INVERSO BOT')
 #Authenticate to Twitter
-CONSUMER_KEY = 'j9EBVirfj1Eqs5WTUqhwpzBcT'
-CONSUMER_SECRET = 'h92D3IEZvqtiYciKmb7EpiQ25dNSX8wbjbUtBmG7gAXGZixheW'
-ACCESS_KEY = '1379945563-UJ1IRwZrCiDx8yjyhAGm0Qyk6k9myfmnm4Rdaki'
-ACCESS_SECRET = 'RqWeQXTlFS7nunq9KqYWuyTaDZqQO1XPDAXph3tIaToeP'
+
+CONSUMER_KEY = os.getenv('consumer_key')
+CONSUMER_SECRET = os.getenv('consumer_secret')
+ACCESS_KEY = os.getenv('access_token')
+ACCESS_SECRET = os.getenv('access_token_secret')
 
 #Setting up connection
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

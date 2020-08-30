@@ -6,10 +6,10 @@ import os
 print('Hi, I am INVERSO BOT')
 #Authenticate to Twitter
 
-CONSUMER_KEY = os.getenv('consumer_key')
-CONSUMER_SECRET = os.getenv('consumer_secret')
-ACCESS_KEY = os.getenv('access_token')
-ACCESS_SECRET = os.getenv('access_token_secret')
+CONSUMER_KEY = os.getenv('CONSUMER_KEY')
+CONSUMER_SECRET = os.getenv('CONSUMER_SECRET')
+ACCESS_KEY = os.getenv('ACCESS_KEY')
+ACCESS_SECRET = os.getenv('ACCESS_SECRET')
 
 #Setting up connection
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

@@ -1,6 +1,6 @@
 import tweepy
 import time
-inport os
+import os
 
 print('HII, I am INVERSO BOT')
 #Authenticate to Twitter
